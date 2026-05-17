@@ -72,19 +72,32 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "NextGenIoT — Connect · Automate · Innovate" },
+      {
+        name: "description",
+        content:
+          "NextGenIoT builds IoT devices, full-stack apps, mobile apps, and project kits. From idea to working product.",
+      },
+      { name: "author", content: "NextGenIoT" },
+      { property: "og:title", content: "NextGenIoT — From Idea to Working Product" },
+      {
+        property: "og:description",
+        content:
+          "IoT, full-stack, mobile, and deployment — premium engineering for connected products.",
+      },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:site", content: "@nextgeniot" },
     ],
     links: [
       {
         rel: "stylesheet",
         href: appCss,
+      },
+      {
+        rel: "icon",
+        href: "/src/logo.jpeg",
+        type: "image/jpeg",
       },
     ],
   }),
