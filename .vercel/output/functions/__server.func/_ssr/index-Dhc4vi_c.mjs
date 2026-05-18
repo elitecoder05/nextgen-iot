@@ -1,6 +1,23 @@
 import { j as jsxRuntimeExports, r as reactExports } from "../_libs/react.mjs";
+import { l as logoUrl } from "./router-COHzXIX9.mjs";
 import { m as motion, u as useMotionValue, a as useSpring, b as useScroll, c as useTransform, d as useInView, A as AnimatePresence } from "../_libs/framer-motion.mjs";
 import { S as Send, A as ArrowRight, C as Cpu, a as CodeXml, b as Smartphone, c as Cloud, P as Package, G as Globe, M as Mail, I as Instagram, d as Clock, e as MapPin, f as CircleCheckBig } from "../_libs/lucide-react.mjs";
+import "../_libs/tanstack__query-core.mjs";
+import "../_libs/tanstack__react-query.mjs";
+import "../_libs/tanstack__react-router.mjs";
+import "../_libs/tanstack__router-core.mjs";
+import "../_libs/tanstack__history.mjs";
+import "../_libs/cookie-es.mjs";
+import "../_libs/seroval.mjs";
+import "../_libs/seroval-plugins.mjs";
+import "node:stream/web";
+import "node:stream";
+import "../_libs/react-dom.mjs";
+import "util";
+import "crypto";
+import "async_hooks";
+import "stream";
+import "../_libs/isbot.mjs";
 import "../_libs/motion-dom.mjs";
 import "../_libs/motion-utils.mjs";
 function useMouseGlow() {
@@ -357,7 +374,7 @@ function Nav() {
             {
               animate: { rotate: [0, 3, -3, 0] },
               transition: { duration: 6, repeat: Infinity, ease: "easeInOut" },
-              children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: "/src/logo.jpeg", alt: "NextGenIoT", className: "w-9 h-9 rounded-lg object-cover" })
+              children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: logoUrl, alt: "NextGenIoT", className: "w-9 h-9 rounded-lg object-cover" })
             }
           ),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "font-semibold text-lg tracking-tight", children: [
@@ -1031,7 +1048,7 @@ function Footer() {
       transition: { duration: 0.8 },
       children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsxs(motion.div, { className: "flex items-center gap-3", whileHover: { scale: 1.04 }, children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: "/src/logo.jpeg", alt: "NextGenIoT", className: "w-8 h-8 rounded-lg object-cover" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: logoUrl, alt: "NextGenIoT", className: "w-8 h-8 rounded-lg object-cover" }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "font-semibold", children: [
             "NextGen",
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-accent", children: "IoT" })

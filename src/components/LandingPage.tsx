@@ -4,6 +4,7 @@ import {
   ArrowRight, Cpu, Code2, Smartphone, Globe, Package, Cloud,
   Instagram, Send, Mail, MapPin, Clock, CheckCircle,
 } from "lucide-react";
+import logoUrl from "../logo.jpeg";
 
 /* ═══════════════════════════════════════════════════════════════
    HOOKS
@@ -387,7 +388,7 @@ function Nav() {
             animate={{ rotate: [0, 3, -3, 0] }}
             transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
           >
-            <img src="/src/logo.jpeg" alt="NextGenIoT" className="w-9 h-9 rounded-lg object-cover" />
+            <img src={logoUrl} alt="NextGenIoT" className="w-9 h-9 rounded-lg object-cover" />
           </motion.div>
           <span className="font-semibold text-lg tracking-tight">
             NextGen<span className="text-accent">IoT</span>
@@ -1053,7 +1054,7 @@ function Footer() {
     >
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         <motion.div className="flex items-center gap-3" whileHover={{ scale: 1.04 }}>
-          <img src="/src/logo.jpeg" alt="NextGenIoT" className="w-8 h-8 rounded-lg object-cover" />
+          <img src={logoUrl} alt="NextGenIoT" className="w-8 h-8 rounded-lg object-cover" />
           <span className="font-semibold">NextGen<span className="text-accent">IoT</span></span>
         </motion.div>
 

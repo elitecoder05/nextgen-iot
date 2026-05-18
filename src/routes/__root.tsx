@@ -9,6 +9,7 @@ import {
 } from "@tanstack/react-router";
 
 import appCss from "../styles.css?url";
+import logoUrl from "../logo.jpeg";
 
 function NotFoundComponent() {
   return (
@@ -96,7 +97,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       {
         rel: "icon",
-        href: "/src/logo.jpeg",
+        href: logoUrl,
         type: "image/jpeg",
       },
     ],
